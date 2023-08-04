@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DiplomProject.ClassVariants">
+    <Position X="6" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAgAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ClassVariants.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DiplomProject.ClassQuestions">
+    <Position X="8" Y="2" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAACABAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ClassQuestions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DiplomProject.ComboBoxFill">
+    <Position X="6" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ComboBoxFill.cs</FileName>
+      <NewMemberFileName>WindowAdmin.xaml.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DiplomProject.ClassDB">
+    <Position X="3" Y="1.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>ACBAQAAAAAAAAAAACAAEAAAAQAAAABAAAACAAAIAAAA=</HashCode>
+      <FileName>ClassDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,32 @@
+﻿<Window x:Class="DiplomProject.WindowCabinet"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DiplomProject"
+        mc:Ignorable="d"
+        Title="Тестирование ЦДС" Height="299.998" Width="646.497" Closed="Window_Closed" FontFamily="Comic Sans MS" ResizeMode="NoResize" Icon="icon.ico">
+    <Grid Margin="0,0,0,-1" Background="#FFB4D8B9">
+        <Label x:Name="labelPhone" Content="Номер телефона:" HorizontalAlignment="Left" Margin="10,116,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="labelName" Content="ФИО:" HorizontalAlignment="Left" Margin="10,52,0,0" VerticalAlignment="Top"/>
+        <GroupBox x:Name="groupBoxEdit" Header="Изменить данные:" Margin="284,10,21,22" Background="#FFFFF8B2" BorderBrush="White">
+            <Grid Margin="10,10,-2,2">
+                <Label Content="Номер телефона:" Margin="12,25,168,0" VerticalAlignment="Top"/>
+                <Label Content="Старый пароль:" Margin="12,88,179,0" VerticalAlignment="Top"/>
+                <Label Content="Логин:" Margin="12,57,230,0" VerticalAlignment="Top"/>
+                <Label Content="Новый пароль:" Margin="12,119,175,0" VerticalAlignment="Top" Height="26"/>
+                <PasswordBox x:Name="passwordBoxNew" Margin="137,125,23,0" VerticalAlignment="Top"/>
+                <PasswordBox x:Name="passwordBoxOld" Margin="137,94,23,0" VerticalAlignment="Top"/>
+                <TextBox x:Name="textBoxNumberEdit" Height="23" Margin="137,29,23,0" TextWrapping="Wrap" VerticalAlignment="Top" PreviewTextInput="textBoxNumberEdit_PreviewTextInput"/>
+                <TextBox x:Name="textBoxLoginEdit" Height="23" Margin="137,60,23,0" TextWrapping="Wrap" VerticalAlignment="Top" MaxLength="20"/>
+                <Button x:Name="buttonEditUser" Content="Изменить" Margin="103,161,95,8" Click="buttonEditUser_Click" Background="White"/>
+                <TextBlock Margin="137,10,30,0" TextWrapping="Wrap" Text="Формат: 8XXXXXXXXXX" VerticalAlignment="Top" FontSize="10"/>
+            </Grid>
+        </GroupBox>
+        <Label Content="Логин:" HorizontalAlignment="Left" Margin="10,84,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="labelLogin" Content="Л" HorizontalAlignment="Left" Margin="61,84,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label Content="ЛИЧНЫЙ КАБИНЕТ" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label x:Name="labelErrorCab" Content="error" HorizontalAlignment="Left" Margin="27,187,0,0" VerticalAlignment="Top" FontWeight="Bold" Background="{x:Null}" Foreground="Black"/>
+
+    </Grid>
+</Window>
